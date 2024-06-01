@@ -1,6 +1,6 @@
 # 点积
 
-算法：如果$x, y \in \mathbb{R}^n$，此算法计算点积$c = x^T y$.
+算法：如果$`x, y \in \mathbb{R}^n`$，此算法计算点积$c = x^T y$.
 
 ```matlab
 c = 0
