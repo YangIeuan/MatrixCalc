@@ -4,6 +4,8 @@
 
 [SAXPY](saxpy/ReadME.md)
 
+[GAXPY](gaxpy/ReadME.md)
+
 [矩阵与矩阵相乘](mmm/ReadME.md)
 
 ---
