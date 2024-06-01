@@ -11,6 +11,7 @@ int main() {
     TestGer1Case();
     TestMMMCase1();
     TestMMMCase2();
+    TestMMMCase3();
     TestSaXpYCase1();
     TestXdotYCase1();
     return 0;
