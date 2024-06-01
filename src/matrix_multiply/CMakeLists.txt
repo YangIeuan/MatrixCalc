@@ -1,4 +1,5 @@
 add_subdirectory(gaxpy)
+add_subdirectory(ger1)
 add_subdirectory(mmm)
 add_subdirectory(saxpy)
 add_subdirectory(xdoty)
