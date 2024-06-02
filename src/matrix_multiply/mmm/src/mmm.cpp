@@ -48,7 +48,7 @@ MATRIX MmultMDot(MATRIX A, MATRIX B, MATRIX C)
 
 MATRIX MmultMSaxpy(MATRIX A, MATRIX B, MATRIX C)
 {
-    // 矩阵乘法的点积形式
+    // 矩阵乘法的SAXPY
     int row_A = A.size();
     int row_B = B.size();
     int col_B = B[0].size();
