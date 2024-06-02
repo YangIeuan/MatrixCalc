@@ -62,13 +62,13 @@ end
 综上，可以看出，总共六种型，三类算法，列出表格如下：
 
 
-|序号|型号|类型|
-|--|--|--|
-|1|ikj|SAXPY|
-|2|ijk|点积|
-|3|kij|秩1修正|
-|4|kji|秩1修正|
-|5|jik|点积|
-|6|jki|SAXPY|
+|序号|型号|类型|代码|
+|--|--|--|--|
+|1|ikj|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|
+|2|ijk|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|
+|3|kij|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|
+|4|kji|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|
+|5|jik|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|
+|6|jki|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|
 ---
 [父目录:矩阵乘法](../ReadME.md)
