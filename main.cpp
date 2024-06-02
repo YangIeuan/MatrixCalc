@@ -5,6 +5,7 @@
 #include "testmmm.h"
 #include "testsaxpy.h"
 #include "testxdoty.h"
+#include "testmatrixutils.h"
 
 int main() {
     TestGaXpYCase1();
@@ -15,5 +16,7 @@ int main() {
     TestMMMCase4();
     TestSaXpYCase1();
     TestXdotYCase1();
+
+    TestTrans();
     return 0;
 }

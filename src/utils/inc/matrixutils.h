@@ -4,4 +4,6 @@
 
 using namespace YYY;
 
-MATRIX Trans(MATRIX A);
+// MATRIX Trans(MATRIX A);
+
+void Trans(MATRIX &A);

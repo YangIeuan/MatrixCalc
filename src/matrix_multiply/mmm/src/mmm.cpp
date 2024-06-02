@@ -65,7 +65,7 @@ MATRIX MmultMSaxpy(MATRIX A, MATRIX B, MATRIX C)
         ret.push_back(tmpArray);
     }
 
-    ret = Trans(ret);
+    Trans(ret);
     return ret;
 }
 

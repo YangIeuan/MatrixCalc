@@ -62,13 +62,13 @@ end
 综上，可以看出，总共六种型，三类算法，列出表格如下：
 
 
-|序号|型号|类型|代码|
-|--|--|--|--|
-|1|ikj|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|
-|2|ijk|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|
-|3|kij|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|
-|4|kji|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|
-|5|jik|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|
-|6|jki|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|
+|序号|型号|类型|代码|时间复杂度|空间复杂度|
+|--|--|--|--|--|--|
+|1|ikj|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|$`O(mnp)`$|0|
+|2|ijk|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|$`O(mnp)`$|0|
+|3|kij|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|$`O(mnp)`$|0|
+|4|kji|秩1修正|[MmultMGer1](src/mmm.cpp#MmultMGer1)|$`O(mnp)`$|0|
+|5|jik|点积|[MmultMDot](src/mmm.cpp#MmultMDot)|$`O(mnp)`$|0|
+|6|jki|SAXPY|[MmultMSaxpy](src/mmm.cpp#MmultMSaxpy)|$`O(mnp)`$|0|
 ---
 [父目录:矩阵乘法](../ReadME.md)
