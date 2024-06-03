@@ -18,5 +18,8 @@ int main() {
     TestXdotYCase1();
 
     TestTrans();
+
+    TestMMMOptCase1();
+    TestMMMOptCase2();
     return 0;
 }

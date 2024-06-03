@@ -3,6 +3,8 @@
 #include <iostream>
 #include "defines.h"
 #include "mmm.h"
+#include "mmm_opt.h"
+#include "printutils.h"
 
 using namespace YYY;
 
@@ -128,4 +130,52 @@ void TestMMMCase4()
         }
         std::cout << std::endl;
     }
+}
+
+void TestMMMOptCase1()
+{
+    MATRIX mat1 = {
+        {1, 2, 3},
+        {4, 15, 6},
+        {7, 8, 8}
+    };
+
+    MATRIX mat2 = {
+        {0, 0, 0},
+        {0, 1, 0},
+        {0, 0, 1}
+    };
+    
+    MATRIX mat3 = {
+        {0, 0, 0},
+        {0, 0, 0},
+        {0, 0, 1}
+    };
+    MATRIX w = MmultMOpt(mat1, mat2, mat3);
+    std::cout << "=====TestMMMOptCase1====" << std::endl;
+    PrintMatrix(w);
+}
+
+void TestMMMOptCase2()
+{
+    MATRIX mat1 = {
+        {1, 2, 3},
+        {4, 15, 6},
+        {7, 8, 8}
+    };
+
+    MATRIX mat2 = {
+        {0, 0, 0},
+        {0, 1, 0},
+        {0, 0, 1}
+    };
+    
+    MATRIX mat3 = {
+        {0, 0, 0},
+        {0, 0, 0},
+        {0, 0, 1}
+    };
+    MATRIX w = MmultMDotOpt(mat1, mat2, mat3);
+    std::cout << "=====TestMMMOptCase2====" << std::endl;
+    PrintMatrix(w);
 }

@@ -12,3 +12,5 @@ using namespace YYY;
 #include "matrixutils.h"
 
 MATRIX MmultMOpt(MATRIX A, MATRIX B, MATRIX C);
+
+MATRIX MmultMDotOpt(MATRIX A, MATRIX B, MATRIX C);
